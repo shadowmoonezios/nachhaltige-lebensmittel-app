@@ -1,6 +1,6 @@
 {
   "name": "nachhaltige-lebensmittel-app",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Eine App zur Suche nach nachhaltigen Lebensmitteln und Rezepten.",
   "main": "index.js",
   "scripts": {
