@@ -14,9 +14,9 @@ mongoose.connect(process.env.MONGODB_URI, { useNewUrlParser: true, useUnifiedTop
   .catch(err => console.error(err));
 
 app.get('/', (req, res) => {
-  res.send('Willkommen zur Nachhaltige Lebensmittel App API');
+  res.send('Welcome to the Sustainable Food App API');
 });
 
 app.listen(PORT, () => {
-  console.log(`Server läuft auf Port: ${PORT}`);
+  console.log(`Server running on port: ${PORT}`);
 });
